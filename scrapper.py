@@ -20,8 +20,8 @@ def main():
     print('')
 
     
-    #print("Authors: " , (len(authors)))
-    #print("Quotes: " , (len(quotes)))
+    print("Authors: " , (len(authors)))
+    print("Quotes: " , (len(quotes)))
 
 if __name__ == "__main__":
     main()
