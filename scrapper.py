@@ -26,6 +26,7 @@ def main():
     # Print data.
     print(df)
     
+    df.to_csv(r'D:\Coding Projects\Practice Programs\Website Scrapper\results.csv', index = None, header=True)
 
     #print("Authors: " , (len(authors)))
     #print("Quotes: " , (len(quotes)))
